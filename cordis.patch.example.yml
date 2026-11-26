@@ -1,0 +1,18 @@
+# BiliBili 每日热榜插件：采集昨日全站日榜前 N、入库、分析并在 DSH 中展示。
+# 复制本文件为同目录的 cordis.patch.yml（或直接修改本文件）后填写自己的环境。
+# 修改后需要重启 DSH（或重新加载该插件行）才会生效。
+- insert:
+    - id: bili-daily
+      name: '@local/bili-daily'
+      config:
+        # Python 解释器；留空则使用 PATH 中的 python。需具备 requests/pymysql/jieba/wordcloud/pillow。
+        pythonPath: ''
+        mysqlHost: '127.0.0.1'
+        mysqlPort: 3306
+        mysqlUser: 'root'
+        # 请填写你的 MySQL 密码；不要把它提交到任何仓库。
+        mysqlPassword: ''
+        database: 'BiliBili'
+        topN: 5
+        retentionDays: 15
+        autoRun: true

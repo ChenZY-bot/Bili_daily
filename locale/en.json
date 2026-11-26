@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Bilibili daily digest",
+    "description": "Collects yesterday's top-N Bilibili site-wide daily ranking videos (BV id, category, tags, duration, creator) plus each video's three hottest comments into MySQL with 15-day retention, then renders tag/comment word clouds, a category bar chart, and a dedicated insight page.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,12 @@
+# 运行产物
+data/
+*.log
+
+# 编辑器与系统
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 本地覆盖
+cordis.patch.local.yml

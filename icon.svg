@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Bilibili daily digest">
+  <defs>
+    <linearGradient id="bd-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d8bff"/>
+      <stop offset="1" stop-color="#7a5cff"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bd-bg)"/>
+  <rect x="9" y="33" width="7" height="20" rx="3.5" fill="#ffffff" opacity="0.72"/>
+  <rect x="20" y="23" width="7" height="30" rx="3.5" fill="#ffffff"/>
+  <rect x="31" y="14" width="7" height="39" rx="3.5" fill="#ffffff" opacity="0.72"/>
+  <path d="M43 31.5c0-2.2 2.4-3.6 4.3-2.5l9.2 5.3c1.9 1.1 1.9 3.9 0 5l-9.2 5.3c-1.9 1.1-4.3-0.3-4.3-2.5z" fill="#ffffff"/>
+</svg>

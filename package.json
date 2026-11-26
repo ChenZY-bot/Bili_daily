@@ -1,0 +1,31 @@
+{
+  "name": "@local/bili-daily",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BiliBili 每日热榜采集、MySQL 归档与可视化分析页",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "python"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
