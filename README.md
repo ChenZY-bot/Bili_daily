@@ -58,8 +58,8 @@ pip install requests pymysql jieba wordcloud pillow
 1. 克隆本仓库到任意目录：
 
    ```bash
-   git clone https://github.com/<your-name>/dsh-bili-daily.git
-   cd dsh-bili-daily
+   git clone https://github.com/ChenZY-bot/Bili_daily.git
+   cd Bili_daily
    ```
 
 2. 安装 Python 依赖（见上一节）。
